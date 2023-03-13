@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-color: rgb(97, 244, 235);
 }
@@ -23,9 +19,9 @@ body {
   width: 228px;
   border-radius: 10px;
   padding-left: 10;
-  color: #ffffff;
+  color: #000;
   background-color: rgba(69, 122, 246, 0.866);
-  border: none;
+  border-color: #000;
 }
 
 .input:hover {
@@ -37,9 +33,9 @@ body {
   margin-left: 10px;
   height: 32px;
   right: 600px;
-  color: #ffffff;
+  color: hsl(0, 0%, 0%);
   background-color: rgba(69, 122, 246, 0.866);
-  border: none;
+  border-color: #000;
 }
 
 .btn-search:hover {
@@ -48,7 +44,7 @@ body {
 }
 
 .gallery {
-  padding-top: 88px;
+  padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -58,7 +54,6 @@ body {
 .photo-card {
   border-width: 1px;
   border-color: #808080;
-  width: 100%;
 }
 
 .photo-card img {
@@ -73,7 +68,6 @@ body {
   gap: 16px;
   justify-content: center;
   color: #ffff;
-  height: 40px;
   background-color: rgba(69, 122, 246, 0.866);
   border-radius: 0 0 5px 5px;
   justify-content: center;
@@ -104,16 +98,14 @@ body {
   height: 40px;
   background-color: rgba(69, 122, 246, 0.866);
   border-radius: 10px;
-  color: #ffffff;
-  /* box-shadow: none; */
-  border: none;
+  color: #000;
+  border-color: #000;
 }
 
 .load-more:hover {
   cursor: pointer;
 }
 
-/* .hidden {
-    display: none;
-}  */
-
+.is-hidden {
+  display: none;
+}
