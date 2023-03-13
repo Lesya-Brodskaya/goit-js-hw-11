@@ -1,7 +1,7 @@
 import './css/styles.css';
 import Notiflix from 'notiflix';
 
-import { fetchImg } from './fetchImg';
+import fetchImg  from './fetchImg';
 import { renderImg } from './renderImg';
 import { lightbox } from './SimpleLightBox';
 
